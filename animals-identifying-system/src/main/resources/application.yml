@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /aix
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.21.249.125:3306/tex?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
+    username: test
+    password: u6ZOjHwg1H126fJD
